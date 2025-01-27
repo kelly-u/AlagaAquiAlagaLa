@@ -1,6 +1,9 @@
 package br.com.ifpe.gleicekelly.alagaaquialagala
 
+import android.content.Intent
 import android.os.Bundle
+import android.os.Handler
+import android.os.Looper
 import android.view.Menu
 import com.google.android.material.navigation.NavigationView
 import androidx.navigation.findNavController
@@ -25,6 +28,12 @@ class MainActivity : AppCompatActivity() {
 
         setSupportActionBar(binding.appBarMain.toolbar)
 
+        Handler(Looper.getMainLooper()).postDelayed({
+            val intent = Intent(this, SplashScreen::class.java)
+            startActivity(intent)
+            finish()
+        }, 3000)
+
         val drawerLayout: DrawerLayout = binding.drawerLayout
         //Menu Lateral de navegação
         val navView: NavigationView = binding.navView
@@ -37,6 +46,7 @@ class MainActivity : AppCompatActivity() {
                 R.id.nav_mapa, R.id.nav_buscarendereco, R.id.nav_enderecosfavoritos, R.id.nav_sobre
             ), drawerLayout
         )
+
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
     }
