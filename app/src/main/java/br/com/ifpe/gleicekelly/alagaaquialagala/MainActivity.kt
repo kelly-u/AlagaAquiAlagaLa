@@ -28,12 +28,6 @@ class MainActivity : AppCompatActivity() {
 
         setSupportActionBar(binding.appBarMain.toolbar)
 
-        Handler(Looper.getMainLooper()).postDelayed({
-            val intent = Intent(this, SplashScreen::class.java)
-            startActivity(intent)
-            finish()
-        }, 3000)
-
         val drawerLayout: DrawerLayout = binding.drawerLayout
         //Menu Lateral de navegação
         val navView: NavigationView = binding.navView
