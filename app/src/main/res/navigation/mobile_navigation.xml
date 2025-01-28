@@ -6,6 +6,16 @@
     app:startDestination="@+id/nav_mapa">
 
     <fragment
+        android:id="@+id/nav_login"
+        android:name="br.com.ifpe.gleicekelly.alagaaquialagala.ui.login.LoginFragment"
+        android:label="Login"
+        tools:layout="@layout/fragment_login" />
+    <fragment
+        android:id="@+id/nav_cadastro"
+        android:name="br.com.ifpe.gleicekelly.alagaaquialagala.ui.cadastro.CadastroFragment"
+        android:label="Cadastro"
+        tools:layout="@layout/fragment_cadastro" />
+    <fragment
         android:id="@+id/nav_mapa"
         android:name="br.com.ifpe.gleicekelly.alagaaquialagala.ui.mapa.MapaFragment"
         android:label="Mapa"
