@@ -3,7 +3,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
 
-    <group android:checkableBehavior="single">
+    <group android:id="@+id/gpcadastro"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/ic_menu_login"
+            android:title="Login" />
+
+        <item
+            android:id="@+id/nav_cadastro"
+            android:icon="@drawable/ic_menu_cadastro"
+            android:title="Cadastro" />
+    </group>
+
+
+    <group android:id="@+id/gpnavegacao"
+        android:checkableBehavior="single">
         <item
             android:id="@+id/nav_mapa"
             android:icon="@drawable/ic_menu_mapa"
@@ -16,6 +31,10 @@
             android:id="@+id/nav_enderecosfavoritos"
             android:icon="@drawable/ic_menu_enderecosfavoritos"
             android:title="Endereços Favoritos" />
+    </group>
+
+    <group android:id="@+id/gpsobre"
+        android:checkableBehavior="single">
         <item
             android:id="@+id/nav_sobre"
             android:icon="@drawable/ic_sobre"
