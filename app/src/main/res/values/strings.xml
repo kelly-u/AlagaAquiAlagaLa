@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AlagaAquiAlagaLa</string>
+    <string name="app_name">Alaga Aqui, Alaga Lá</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Android Studio</string>
@@ -14,4 +14,15 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="nome_usuario">Nome de Usuário</string>
+    <string name="senha">Senha</string>
+    <string name="manter_conexao">Mantenha-me conectado</string>
+    <string name="login">Login</string>
+    <string name="n_o_possui_uma_conta_cadastre_se">Não possui uma conta? Cadastre-se!</string>
+    <string name="esqueceu_a_senha">Esqueceu a senha? Clique aqui!</string>
+    <string name="confirmar_senha">Confirmar Senha</string>
+    <string name="cadastro">Cadastro</string>
+    <string name="telefone">Telefone</string>
+    <string name="titulo_cadastro">Cadastro</string>
+    <string name="titulo_login">Login</string>
 </resources>

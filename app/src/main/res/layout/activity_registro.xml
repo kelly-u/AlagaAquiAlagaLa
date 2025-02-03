@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistroActivity"
+    android:background="@color/yellow">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo_cadastro"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:layout_marginTop="80dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textAlignment="center"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <EditText
+            android:id="@+id/edit_nome_usuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/ic_menu_login"
+            android:gravity="center"
+            android:hint="@string/nome_usuario"
+            />
+
+        <EditText
+            android:id="@+id/edit_senha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_login_senha"
+            android:gravity="center"
+            android:hint="@string/senha"
+            />
+
+        <EditText
+            android:id="@+id/edit_confirmar_senha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_login_senha"
+            android:gravity="center"
+            android:hint="@string/confirmar_senha"
+            />
+
+        <EditText
+            android:id="@+id/edit_telefone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/ic_registro_telefone"
+            android:gravity="center"
+            android:hint="@string/telefone"
+            />
+
+        <Button
+            android:id="@+id/button_cadastro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cadastro" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

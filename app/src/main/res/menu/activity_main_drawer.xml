@@ -37,7 +37,7 @@
         android:checkableBehavior="single">
         <item
             android:id="@+id/nav_sobre"
-            android:icon="@drawable/ic_sobre"
+            android:icon="@drawable/ic_menu_sobre"
             android:title="Sobre" />
     </group>
 </menu>
