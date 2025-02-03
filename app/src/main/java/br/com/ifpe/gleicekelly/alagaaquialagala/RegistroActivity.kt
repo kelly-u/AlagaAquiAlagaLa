@@ -1,5 +1,6 @@
 package br.com.ifpe.gleicekelly.alagaaquialagala
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -19,6 +20,9 @@ class RegistroActivity : AppCompatActivity() {
         binding.buttonCadastro.setOnClickListener{
             //Validar Cadastro
             finish()
+        }
+        binding.textFacaLogin.setOnClickListener{
+            startActivity(Intent(this, LoginActivity::class.java))
         }
 
     }

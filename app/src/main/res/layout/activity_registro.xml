@@ -13,7 +13,7 @@
         android:text="@string/titulo_cadastro"
         android:textAlignment="center"
         android:textSize="30sp"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="70dp"
         />
 
     <LinearLayout
@@ -64,9 +64,19 @@
             android:id="@+id/button_cadastro"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
             android:text="@string/cadastro" />
 
     </LinearLayout>
 
+    <TextView
+        android:id="@+id/text_faca_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginVertical="20dp"
+        android:gravity="center"
+        android:text="@string/j_possui_conta_fa_a_login"
+        />
 
 </RelativeLayout>
