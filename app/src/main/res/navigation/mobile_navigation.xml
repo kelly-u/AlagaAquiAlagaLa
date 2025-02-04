@@ -6,34 +6,28 @@
     app:startDestination="@+id/nav_mapa">
 
     <fragment
-        android:id="@+id/nav_login"
-        android:name="br.com.ifpe.gleicekelly.alagaaquialagala.ui.login.LoginFragment"
-        android:label="Login"
-        tools:layout="@layout/fragment_login" />
-    <fragment
-        android:id="@+id/nav_cadastro"
-        android:name="br.com.ifpe.gleicekelly.alagaaquialagala.ui.cadastro.CadastroFragment"
-        android:label="Cadastro"
-        tools:layout="@layout/fragment_cadastro" />
-    <fragment
         android:id="@+id/nav_mapa"
         android:name="br.com.ifpe.gleicekelly.alagaaquialagala.ui.mapa.MapaFragment"
-        android:label="Mapa"
-        tools:layout="@layout/fragment_mapa" />
+        tools:layout="@layout/fragment_mapa"
+        />
     <fragment
-        android:id="@+id/nav_buscarendereco"
+        android:id="@+id/nav_buscar_endereco"
         android:name="br.com.ifpe.gleicekelly.alagaaquialagala.ui.buscarendereco.BuscarEnderecoFragment"
-        android:label="Buscar Endereço"
-        tools:layout="@layout/fragment_buscarendereco" />
+        android:label="Buscar Endereços"
+        tools:layout="@layout/fragment_buscarendereco"
+        />
     <fragment
-        android:id="@+id/nav_enderecosfavoritos"
+        android:id="@+id/nav_enderecos_favoritos"
         android:name="br.com.ifpe.gleicekelly.alagaaquialagala.ui.enderecosfavoritos.EnderecosFavoritosFragment"
         android:label="Endereços Favoritos"
-        tools:layout="@layout/fragment_enderecosfavoritos" />
+        tools:layout="@layout/fragment_enderecosfavoritos"
+        />
     <fragment
         android:id="@+id/nav_sobre"
         android:name="br.com.ifpe.gleicekelly.alagaaquialagala.ui.sobre.SobreFragment"
         android:label="Sobre"
         tools:layout="@layout/fragment_sobre"
         />
+
+
 </navigation>
