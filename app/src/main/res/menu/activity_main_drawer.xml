@@ -10,11 +10,11 @@
             android:icon="@drawable/ic_menu_mapa"
             android:title="Mapa" />
         <item
-            android:id="@+id/nav_buscarendereco"
+            android:id="@+id/nav_buscar_endereco"
             android:icon="@drawable/ic_menu_buscarendereco"
             android:title="Buscar endereço" />
         <item
-            android:id="@+id/nav_enderecosfavoritos"
+            android:id="@+id/nav_enderecos_favoritos"
             android:icon="@drawable/ic_menu_enderecosfavoritos"
             android:title="Endereços Favoritos" />
     </group>

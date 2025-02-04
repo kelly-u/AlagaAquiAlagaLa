@@ -5,7 +5,8 @@
     <string name="nav_header_title">Android Studio</string>
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_editar_perfil">Editar Perfil</string>
+    <string name="action_sair">Sair</string>
 
     <string name="menu_home">Home</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
@@ -23,4 +24,8 @@
     <string name="titulo_login">Login</string>
     <string name="j_possui_conta_fa_a_login">Já possui conta? Faça login!</string>
     <string name="title_activity_menu">menuActivity</string>
+    <string name="mapa">Mapa</string>
+    <string name="buscar_endereco">Buscar Endereço</string>
+    <string name="enderecos_favoritos">Endereços Favoritos</string>
+    <string name="sobre">Sobre</string>
 </resources>

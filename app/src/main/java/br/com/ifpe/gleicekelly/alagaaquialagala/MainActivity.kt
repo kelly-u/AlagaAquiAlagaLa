@@ -36,8 +36,8 @@ class MainActivity : AppCompatActivity() {
         appBarConfiguration = AppBarConfiguration(
             setOf(
                 R.id.nav_mapa,
-                R.id.nav_buscarendereco,
-                R.id.nav_enderecosfavoritos,
+                R.id.nav_buscar_endereco,
+                R.id.nav_enderecos_favoritos,
                 R.id.nav_sobre
             ), drawerLayout
         )
